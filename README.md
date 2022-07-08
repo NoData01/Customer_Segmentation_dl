@@ -60,7 +60,7 @@ Model evaluation is the process of analysing a deep learning model's performance
 
 
 ## Discussion :books:
-From this model, around 92% accuracy can be achieved during training. The model can still be improved by adding more data to it.
+From this model, around 92% accuracy can be achieved during training and the low F1 score is obtained, which is due to the imbalance dataset. The total count of term_deposite_subscribed which is equal to 0 is way higher than 1, which causes imbalance of data and inaccurate prediction of the model. Thus, adding more data may help to improve the model. 
 
 
 
